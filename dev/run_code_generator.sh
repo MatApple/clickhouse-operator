@@ -12,7 +12,7 @@ CUR_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 source "${CUR_DIR}/go_build_config.sh"
 
 CODE_GENERATOR_DIR_INSIDE_MODULES="${SRC_ROOT}/vendor/k8s.io/code-generator"
-CODE_GENERATOR_DIR_INSIDE_GOPATH="${GOPATH}/src/k8s.io/code-generator"
+CODE_GENERATOR_DIR_INSIDE_GOPATH="${GOPATH}/pkg/mod/k8s.io/code-generator@v0.21.7"
 
 CODE_GENERATOR_DIR=$( \
     realpath "${CODE_GENERATOR_DIR:-$( \
