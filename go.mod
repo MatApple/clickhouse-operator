@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	github.com/MakeNowJust/heredoc v1.0.0
+	github.com/altinity/clickhouse-operator v0.0.0-00010101000000-000000000000
 	github.com/altinity/queue v0.0.0-20210114142043-ddb7da66064f
 	github.com/golang/glog v1.0.0
 	github.com/google/uuid v1.3.0
@@ -30,9 +31,7 @@ require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
-	github.com/d4l3k/messagediff v1.2.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful v2.9.5+incompatible // indirect
 	github.com/evanphx/json-patch v4.9.0+incompatible // indirect
@@ -91,4 +90,4 @@ replace (
 	k8s.io/code-generator => k8s.io/code-generator v0.21.7
 )
 
-replace github.com/altinity/clickhouse-operator => github.com/matapple/clickhouse-operator master
+replace github.com/altinity/clickhouse-operator => github.com/matapple/clickhouse-operator v0.0.0-20220420221509-a999c7fec5dc
