@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/MakeNowJust/heredoc v1.0.0
-	github.com/altinity/clickhouse-operator v0.0.0-00010101000000-000000000000
+	github.com/altinity/clickhouse-operator v0.0.0-20220413130740-7ec06b79eb70
 	github.com/altinity/queue v0.0.0-20210114142043-ddb7da66064f
 	github.com/golang/glog v1.0.0
 	github.com/google/uuid v1.3.0
@@ -24,7 +24,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.23.1
 	k8s.io/apimachinery v0.23.1
 	k8s.io/client-go v0.23.1
-	k8s.io/code-generator v0.23.1
+	k8s.io/code-generator v0.23.6
 )
 
 require (
