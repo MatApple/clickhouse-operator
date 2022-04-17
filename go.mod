@@ -2,8 +2,6 @@ module github.com/matapple/clickhouse-operator
 
 go 1.17
 
-replace github.com/altinity/clickhouse-operator => github.com/matapple/clickhouse-operator master
-
 require (
 	github.com/MakeNowJust/heredoc v1.0.0
 	github.com/altinity/queue v0.0.0-20210114142043-ddb7da66064f
@@ -92,3 +90,5 @@ replace (
 	k8s.io/client-go => k8s.io/client-go v0.21.7
 	k8s.io/code-generator => k8s.io/code-generator v0.21.7
 )
+
+replace github.com/altinity/clickhouse-operator => github.com/matapple/clickhouse-operator master
