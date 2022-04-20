@@ -1,6 +1,8 @@
-module github.com/altinity/clickhouse-operator
+module github.com/matapple/clickhouse-operator
 
 go 1.17
+
+replace github.com/altinity/clickhouse-operator => github.com/matapple/clickhouse-operator
 
 require (
 	github.com/MakeNowJust/heredoc v1.0.0
