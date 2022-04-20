@@ -1,4 +1,4 @@
-module github.com/matapple/clickhouse-operator
+module github.com/altinity/clickhouse-operator
 
 go 1.17
 
